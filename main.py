@@ -37,4 +37,4 @@ async def crear_cliente(clientenuevo: Crear_cliente):
         raise HTTPException(status_code=404,detail="El usuario ya existe con esa cédula")
     actualizar_cliente(clientenuevo)
     #aprobado = "Cliente creado con exito"
-    return 
+    return "Cliente creado con exito"
